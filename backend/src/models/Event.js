@@ -9,8 +9,12 @@ const EventSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  url: {
-    type: String,
+  startAt: {
+    type: Date,
+    required: true,
+	},
+	endAt: {
+    type: Date,
     required: true,
   },
   createdAt: {
